@@ -1,0 +1,22 @@
+<h1>  Photogram </h1>
+
+<div class=" posts-wrapper row">
+	<div class='post'>
+		<div class='post-head'>
+			<div class='name'>
+				<span> Erick </span>
+
+				</div> 
+</div> 
+<% @posts.each do |post|%>
+
+<div class='image center-block'> 
+  <%= link_to (image_tag post.image.url(:medium), class:'img-responsive'), post_path(post) %> 
+</div> 
+  <h2> <%= post.caption %> </h2>
+
+</div> 
+</div> 
+
+
+  <% end %>
