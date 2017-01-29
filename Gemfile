@@ -38,7 +38,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'paperclip', '~> 5.0.0'
-gem 'simple_form', '~> 3.3.1'  
+gem 'simple_form', '~> 3.3.1'
+gem 'devise'
 
 group :development, :test do
   gem 'sqlite3', '1.3.12'
