@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-	resources :posts
+  devise_for :users, :controllers => { registrations: 'registrations' }
+  resources :posts
   get 'posts#new' => 'posts#new'
 
 

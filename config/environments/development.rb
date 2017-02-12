@@ -45,6 +45,14 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+
+  # resources :posts
+  # get 'posts#new' => 'posts#new'
+
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  # root 'posts#index'
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
